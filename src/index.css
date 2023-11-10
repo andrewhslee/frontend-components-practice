@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.site-title {
+  font-size: 2rem;
+}
+
+
+.nav {
+  border-bottom: rgb(31, 30, 30) 1px solid;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  outline-offset: -7px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li:hover, .nav li:active {
+  color: black;
+  text-shadow: 0 0 0.01px black;
+}
