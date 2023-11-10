@@ -1,0 +1,25 @@
+.home-container {
+    width: 100%;
+    display: block;
+}
+  
+.home-grid {
+    width: 100%;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    background-color: rgb(126, 126, 255);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.intro-text {
+    background-color: rgba(240, 100, 100, 0.8);
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.intro-text {
+    background-color: rgba(90, 231, 77, 0.8);
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
